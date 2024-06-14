@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerManagementPage renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="customer-container"
+  >
+    <div
+      class="customer-container__header-content"
+    >
+      <h1
+        class="customer-container__header-content__heading"
+      >
+        Customers
+      </h1>
+      <button
+        class="customer-container__header-content__button greenButton btn btn-success"
+        type="button"
+      >
+        Add New
+      </button>
+    </div>
+    <div
+      class="customer-container__table-content "
+    >
+      <div
+        class="customer-container__table"
+      >
+        <div
+          class="text-align-center norecord"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CustomerManagementPage renders with search value correctly 1`] = `
+<div
+  className="customer-container"
+>
+  <div
+    className="customer-container__header-content"
+  >
+    <h1
+      className="customer-container__header-content__heading"
+    >
+      Customers
+    </h1>
+    <button
+      className="customer-container__header-content__button greenButton btn btn-success"
+      disabled={false}
+      onClick={[MockFunction]}
+      type="button"
+    >
+      Add New
+    </button>
+  </div>
+  <div
+    className="customer-container__table-content "
+  >
+    <div
+      className="customer-container__table"
+    >
+      <div
+        className="text-align-center norecord"
+      />
+    </div>
+  </div>
+</div>
+`;

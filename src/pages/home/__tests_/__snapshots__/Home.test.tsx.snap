@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="background-image-container"
+    style="background-image: url(splash-image.png); background-size: cover; background-repeat: no-repeat; background-position: center; height: 100vh; overflow: hidden;"
+  >
+    <div
+      class="home_page"
+    >
+      <img
+        alt="lecarage_logo"
+        class="home_page_logo"
+        src="lecarageLogo.png"
+      />
+      <p>
+        LUXURY CAR RESIDENCE CAR CLUB & PETROL HEADS COMMUNITY
+      </p>
+    </div>
+    <div
+      class="footer_text"
+    >
+      <p>
+        LeCarage.com
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

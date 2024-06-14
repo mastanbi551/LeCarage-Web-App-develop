@@ -1,0 +1,57 @@
+@import "../../styles//variables.scss";
+.dropdown {
+  margin-bottom: 15px;
+  
+
+
+  .dropDown-label {
+    text-align: left;
+    @include label;
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  select {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    
+  }
+
+  .active-icon {
+    @include greenStatusIcon;
+  }
+
+  .inactive-icon {
+    @include redStatusIcon;
+  }
+}
+
+.custom-option {
+  // ...
+  padding: 20px 5px !important;
+  line-height: 15px;
+  
+}
+
+.swal2-confirm {
+  font-size: 1em;
+}
+
+.mgtp {
+  margin-top: 6px;
+}
+select:disabled{
+  background-color: $lightgrey;
+  color: $darkgrey;
+  cursor: not-allowed;
+}
+.dropdown .dropDown-label{
+color: var(--bs-body-color);}
+
+.disabled{
+  cursor: not-allowed;
+}
+.status-dropdown{
+  -moz-background-color:#fff;
+}

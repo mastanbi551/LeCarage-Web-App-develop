@@ -1,0 +1,48 @@
+@import "../../styles/style.scss";
+
+.button_full {
+  width: 318px;
+  height: 52px;
+  background-color: $lightgrey;
+  font-family: $montserratFont;
+  @include montserrat18;
+  color: $primaryBlack;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed !important;
+}
+
+.button_full:disabled {
+  background-color: $lightgrey;
+  color: $darkgrey;
+  cursor: not-allowed;  
+  border-color: $darkgrey;
+}
+
+.btn-text {
+  position: absolute;
+  left: 262px;
+  top: 685px;
+  @include montserrat18;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.add-button {
+  @include addButton;
+  margin-top: 30px;
+  float: left;
+}
+.btn:disabled, .btn[disabled], fieldset[disabled] .btn {
+  
+  background-color: $lightgrey;
+  color: $darkgrey;
+  cursor: not-allowed;  
+  border-color: $darkgrey;
+  filter: alpha(opacity=65);
+  opacity: 2;
+}

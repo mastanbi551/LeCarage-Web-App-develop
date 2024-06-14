@@ -1,0 +1,158 @@
+@import "../../styles/variables.scss";
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+  margin: 5px;
+  align-self: flex-end;
+}
+
+.pagination a {
+  text-decoration: none;
+  padding: 5px;
+  color: $veryDarkGray;
+}
+
+.pagination__link {
+  font-weight: bold;
+}
+
+.pagination__link--active a {
+  margin: 5px;
+  padding: 7px;
+  color: $primaryWhite !important;
+  background: $veryDarkGray;
+  border-radius: 28%;
+}
+
+.pagination__link--disabled a {
+  color: $darkgrey;
+}
+
+.card {
+  background-color: $White;
+  padding: 5px;
+  border: 0px;
+}
+
+.custom-pagination {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+  margin: 5px;
+  align-self: flex-end;
+  padding: 0px 10px;
+
+  .rows-per-page {
+    display: block;
+
+    .label {
+      vertical-align: middle;
+      font-family: $montserratFont;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 29px;
+      letter-spacing: 0.3px;
+      color: $primaryBlack;
+      display: inline-block;
+    }
+
+    select {
+      @include sidebar_links;
+      border: none;
+      font-family: $latoFont;
+      letter-spacing: 0.1px;
+      color: $veryDarkGray;
+      display: inline-block;
+    }
+
+    .dropdown {
+      display: inline-block;
+    }
+    select {
+      width: 50px;
+      padding: 5px;
+      font-size: 14px;
+      line-height: 1;
+      border: 0;
+      border-radius: 5px;
+      height: 34px;
+      background: url("data:image/svg+xml,<svg fill='currentColor' color='grey' height='10px' width='10px' viewBox='0 0 16 16'  xmlns='http://www.w3.org/2000/svg'><path  d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>")
+        no-repeat right;
+      appearance: none;
+      background-position-x: 25px;
+      background-size: 14px;
+    }
+  }
+  .showing-arrows {
+    display: block !important;
+
+    .label {
+      vertical-align: middle;
+      font-family: $montserratFont;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 29px;
+      letter-spacing: 0.3px;
+      color: $primaryBlack;
+    }
+
+    label,
+    .buttons {
+      display: inline-block;
+      padding-right: 10px;
+    }
+
+    .buttons button {
+      border: none !important;
+      background: none;
+      margin: 5px;
+      color: $black;
+    }
+
+    button[disabled] {
+      color: $disablebtn;
+    }
+  }
+}
+
+.dynamic-table {
+  thead {
+    th {
+      @include tableHeading;
+    }
+  }
+  tbody {
+    td {
+      @include tableBody;
+      padding: 15px 0px 15px 20px;
+      cursor: pointer;
+    }
+
+    .edit-delete-icons svg {
+      width: 17px;
+      height: 17px;
+      margin-right: 7px;
+    }
+  }
+}
+
+.pt {
+  padding-top: 10px;
+  padding-left: 18px;
+}
+.norecord {
+  padding: 5px;
+  font-size: 17px;
+}
+
+.accessdisabled{
+  
+  color: $darkgrey;
+  cursor: not-allowed;  
+}

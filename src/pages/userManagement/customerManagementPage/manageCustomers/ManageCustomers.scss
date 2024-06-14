@@ -1,0 +1,252 @@
+@import "../../../../styles//variables.scss";
+
+.details-card-containers {
+  input {
+    width: 100%;
+    color: $primaryBlack !important;
+    box-sizing: border-box;
+    width: 380px;
+    height: 40px;
+
+    border: 1px solid $lightgrey;
+  }
+
+  .label {
+    @include label;
+  }
+
+  &__user-id-name-details,
+  &__user-email-cellnumber-details,
+  &__payment-details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    &__user-type-id-container,
+    &__user-type-name-container,
+    &__car-holder-container,
+    &__bank-name-container {
+      flex-direction: column;
+      flex: 50%;
+      text-align: left;
+      padding-right: 40px;
+      text-align: left;
+
+      .label {
+        @include label;
+      }
+
+      input {
+        width: 100% !important;
+        color: $primaryBlack !important;
+        box-sizing: border-box;
+        width: 380px;
+        height: 40px;
+
+        border: 1px solid $lightgrey;
+      }
+    }
+  }
+
+  &__user-address-container {
+    padding: 2% 0;
+    text-align: left;
+
+    &__heading {
+      @include SubHeading2;
+    }
+  }
+
+  &__user-address-container {
+    &__address-details {
+      &__delete-icon {
+        text-align: right;
+        padding-right: 40px;
+      }
+
+      &__add-Address {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        input {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .no-wrap {
+    flex-wrap: nowrap !important;
+    display: flex;
+  }
+
+  &__cars-container {
+    &__cars-details {
+      &__add-car {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+      }
+
+      &__car-heading-delete-icon {
+        display: block;
+        position: relative;
+
+        .label {
+          display: inline-block;
+          float: left;
+          @include label;
+        }
+
+        svg {
+          display: inline-block;
+          float: right;
+          position: absolute;
+          right: 10px;
+        }
+      }
+
+      &__table-info {
+        thead {
+          border: 1px solid $lightgrey;
+        }
+
+        tbody {
+          background: $secondaryWhite;
+        }
+
+        .input-text-field .input-field {
+          color: $primaryBlack;
+        }
+      }
+    }
+  }
+}
+
+.manage-customers-page {
+  text-align: left;
+
+  input {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .label {
+    @include label;
+  }
+}
+
+.overflow {
+  overflow: auto;
+  height: 430px;
+}
+
+.modal-view {
+  //padding-top: 50%;
+}
+
+.add-car-btn {
+  margin-right: 60%;
+  box-sizing: border-box;
+  width: 16%;
+  height: 38px;
+  color: $primaryGreen;
+  background-color: $White;
+  border: 2px solid $primaryGreen;
+}
+
+.modal-heading-row {
+  left: 20.49%;
+  right: 20.49%;
+  top: 46.67%;
+  bottom: 51.22%;
+  background: $White;
+  box-shadow: inset 0px 1px 0px $secondaryLightGrey;
+}
+
+.modal-list {
+  left: 20.49%;
+  right: 20.49%;
+  top: 46.67%;
+  bottom: 49.49%;
+  background: $primaryWhite;
+  box-shadow: inset 0px 1px 0px $secondaryLightGrey;
+}
+
+.modal-save-btn {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0.79%;
+  background: $primaryGreen;
+  width: 8%;
+  height: 38px;
+  border: 0px none;
+}
+
+.modal-cancel-btn {
+  box-sizing: border-box;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  width: 10%;
+  height: 38px;
+  bottom: 0.79%;
+  border: 2px solid $primaryGreen;
+  background-color: $White;
+  color: $primaryGreen;
+}
+
+.overflwtable {
+  overflow-y: auto;
+  height: 300px;
+}
+
+.checkbox-btn {
+  color: $primaryBlack;
+}
+
+input[type="checkbox"]:checked::before {
+  content: "✓";
+  font-size: 14px;
+  font-weight: 800;
+  color: $primaryWhite;
+  position: relative;
+  top: -3px;
+  left: 1px;
+  width: 15px;
+  height: 15px;
+}
+
+input[type="checkbox"] {
+  border: 1px solid $primaryBlack;
+}
+.checkbox-text {
+  padding-left: 2px;
+}
+
+.dropdown {
+  margin-bottom: 1px !important;
+  padding: 0px;
+}
+
+.customerspassword .input-text-field span.multiple-icons i:last-child svg {
+  color: $primaryBlack;
+}
+
+.mgrght{
+  margin-right: 27px;
+}
+
+
+.car_Search{
+  margin-left: 10px;
+    border-radius: 0px;
+    border: 1px solid #cccc;
+    padding: 5px;
+}
+::placeholder{
+  font-size: 14px;
+}
+

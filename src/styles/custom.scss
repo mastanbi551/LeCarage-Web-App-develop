@@ -1,0 +1,162 @@
+.Button_Full {
+  position: absolute;
+  background: $lightgrey;
+  width: 318px;
+  height: 40px;
+  border-radius: 0px;
+}
+.whiteButton {
+  width: 318px;
+  height: 52px;
+  background: $lightgrey;
+  position: absolute;
+  border-width: 0;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.greenButton {
+  font-family: $montserratFont;
+  background: $primaryGreen;
+  position: absolute;
+  border-width: 0;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: $primaryWhite;
+  border-radius: 0;
+}
+.whiteCheckBox {
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  border: 1px solid $lightgrey;
+  filter: drop-shadow(5px 5px 10px rgba(6, 6, 6, 0.5))
+    drop-shadow(-5px -5px 10px rgba(69, 69, 69, 0.25));
+}
+
+.Add_Button {
+  position: relative;
+  width: 144px;
+  height: 40px;
+}
+
+.Text_Field {
+  box-sizing: border-box;
+  height: 40px;
+  width: 318px;
+  border-radius: 0px;
+  border: 1px solid $primaryWhite;
+}
+.text-align-left {
+  text-align: left;
+}
+.text-align-right {
+  text-align: right;
+}
+.text-align-center {
+  text-align: center;
+}
+.body_copy_1 {
+  font-family: $montserratFont;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.validation-error-message {
+  color: $secondaryRed;
+}
+::-webkit-scrollbar {
+  width: 10px;
+
+  /* Track */
+  &-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  &-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  &-thumb:hover {
+    background: #555;
+  }
+}
+
+.btn:hover {
+  background-color: #23501d;
+  color: $White;
+}
+.btn:focus {
+  background-color: #23501d;
+  color: $White;
+}
+
+.toast-message1 {
+  width: 100%;
+  text-align: left;
+  background-color: $grey;
+}
+.toast-message {
+  width: 100%;
+  text-align: left;
+  margin-top: 80px;
+  background-color: $grey;
+}
+.btn:disabled {
+  
+  background-color: $lightgrey;
+  color: $darkgrey;
+  cursor: not-allowed;  
+  border-color: $darkgrey;
+  opacity: 2;
+}
+:disabled {  
+  background-color: transparent;
+  color: $darkgrey !important;
+  cursor: not-allowed;  
+  border-color: #e4e4e4;
+}
+
+select:disabled{
+  background-color: transparent;
+  color: $darkgrey !important;
+  cursor: not-allowed;
+}
+
+.greenButton:disabled {
+  background: $primaryGreen;
+}
+.dropdown-menu{
+  border-radius: 0px !important;
+}
+
+select {
+
+  font-size: 14px;
+  font-family: $montserratFont;
+  
+}
+
+.password-field:disabled {
+  background-color: $lightgrey;
+}
+.login-page .static,
+.otp-verification-page .static,
+.reset-password-page .static ,
+.forgot-password-page__forgot-password-form .static{
+outline: -webkit-focus-ring-color auto 0px !important;}
+
+svg{
+  cursor:pointer;
+}
+
+.pdtopbtm{
+  padding-top:5px;
+  padding-bottom:5px;
+}

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserManagementPage should match the snapshot 1`] = `
+<div>
+  <div
+    class="users-container"
+  >
+    <div
+      class="users-container__header-content"
+    >
+      <h1
+        class="users-container__header-content__heading"
+      >
+        Users
+      </h1>
+      <button
+        class="users-container__header-content__button greenButton btn btn-success"
+        type="button"
+      >
+        Add New
+      </button>
+    </div>
+    <div
+      class="users-container__table-content "
+    >
+      <div
+        class="users-container__table"
+      >
+        <div
+          class="text-align-center norecord"
+        >
+          Error message
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

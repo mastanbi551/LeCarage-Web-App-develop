@@ -1,0 +1,78 @@
+@import "../../styles/variables.scss";
+
+.modal {
+  --bs-modal-margin: 4.75rem;
+}
+
+.modal-body {
+  min-height: 150px;
+}
+
+.modalbtn {
+  padding: 5px 25px;
+  border-radius: 0px;
+}
+
+.modal-content {
+  border-radius: 0px;
+}
+
+.dropdown-toggle {
+  border-radius: 0px;
+  text-decoration: none;
+}
+.dropdown {
+  margin-bottom: 1px !important;
+  padding: 8px;
+}
+
+.roleSwitchDropdown {
+  
+  border-radius: 0px;
+  margin-top: -1px;
+}
+.warehouseSwitchDropdown.show {
+  display: block;
+  border-radius: 0px;
+  margin-top: 4px;
+}
+
+.dropdown-menu {
+  --bs-dropdown-padding-y: 0rem !important;
+}
+
+.dropdown-item {
+  border-bottom: 1px solid #b4b4b4;
+}
+
+.dropdown-item:last-child {
+  border-bottom: 0px solid #b4b4b4;
+}
+.dropdown-item:hover {
+  background-color: $primaryGreen;
+  color: $White;
+}
+
+.width {
+  width: 331px;
+}
+.warehouseSwitchDropdown {
+  transform: translate(0px, 68px) !important;
+}
+.pad {
+  padding: 4px 1px !important;
+}
+.profile-Filter-dropdown {
+  button {
+    background-color: transparent;
+    color: $black;
+    text-align: left;
+    border: 1px solid $btnborder;
+    padding: 9px;
+
+    :hover {
+      background-color: transparent;
+    }
+  }
+}
+

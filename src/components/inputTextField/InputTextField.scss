@@ -1,0 +1,80 @@
+@import "../../styles/style.scss";
+
+.static {
+  border: 1px solid $lightgrey;
+  background-color: transparent;
+  box-sizing: border-box;
+  height: 40px;
+  width: 100%;
+}
+
+.input-text-field {
+  position: relative;
+  color: $primaryWhite;
+  @include input-text;
+
+  .input-field-icon {
+    color: $primaryWhite;
+    padding-left: 40px;
+  }
+
+  .input-field {
+    color: $primaryWhite;
+    padding-left: 10px;
+  }
+
+  i {
+    position: absolute;
+  }
+  
+
+  ::placeholder {
+    color: $primaryWhite;
+    opacity: 1;
+  }
+
+  span.single-icon {
+    display: inline-block;
+
+    i {
+      left: 15px;
+      top: 7px;
+
+      svg {
+        position: absolute;
+        top: 5px;
+      }
+    }
+  }
+
+  span.multiple-icons {
+    i {
+      top: 7px;
+      svg {
+        position: absolute;
+        top: 5px;
+      }
+    }
+    i:first-child {
+      left: 15px;
+    }
+    i:last-child {
+      right: 15px;
+      svg {
+        right: 5px;
+      }
+    }
+  }
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+
+:disabled{
+  background-color: $lightgrey;
+  color: $darkgrey;
+  cursor: not-allowed;
+}

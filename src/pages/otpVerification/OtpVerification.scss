@@ -1,0 +1,71 @@
+@import "../../styles/variables.scss";
+
+.otp-verification-page {
+  &__heading {
+    padding: 20px 20px 20px 0;
+  }
+  &__content {
+    color: $primaryWhite;
+  }
+  &__container {
+    display: flex;
+    flex-direction: row;
+    @media (max-width: 991px) {
+      flex-direction: column-reverse;
+    }
+  }
+  &__logo-container {
+    flex-basis: 20%;
+    padding-top: 3%;
+    @media (max-width: 991px) {
+      padding-top: 5% !important;
+    }
+  }
+  &__logo-img {
+    /*to be updated.*/
+    color: transparent;
+  }
+
+  &__otp-verification-form {
+    padding: 50px;
+    margin-left: 10%;
+    flex-basis: 50%;
+    @media (max-width: 991px) {
+      width: 320px !important;
+      margin: auto !important;
+      padding: 50px 0px !important;
+    }
+
+    &__otp-field {
+      padding: 0 20px 20px 0;
+      color: $primaryWhite !important;
+    }
+
+    &__form-fields {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__proceed-button {
+      margin-top: 6%;
+    }
+  }
+
+  &__checkbox-forgot {
+    display: flex;
+  }
+
+  input:disabled {
+    background: $secondaryLightGrey;
+    cursor: not-allowed;
+  }
+  .static {
+    border: 1px solid $lightgrey;
+    background-color: transparent;
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    min-width: 19.875rem;
+  }
+}

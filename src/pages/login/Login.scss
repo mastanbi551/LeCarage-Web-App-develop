@@ -1,0 +1,133 @@
+@import "../../styles/variables.scss";
+.login-page {
+  &__heading {
+    padding: 20px 20px 20px 0;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  &__logo-container {
+    flex-basis: 20%;
+    padding-top: 3%;
+    width: 100%;
+  }
+
+  &__logo-img {
+    /*to be updated.*/
+    color: transparent;
+    width: 100%;
+  }
+
+  &__login-form {
+    padding: 50px;
+    margin-left: 10%;
+
+    &__user-name-field {
+      padding: 0 20px 20px 0;
+    }
+
+    &__user-password-field {
+      padding: 0 20px 20px 0;
+    }
+
+    &__checkbox-forgotpassword {
+      padding: 0 0 20px 0;
+      display: flex;
+      width: 318px;
+      justify-content: space-between;
+      @include checkbox-forgotpassword;
+    }
+
+    &__forgot-password {
+      &__content {
+        @include Body_Copy_Main;
+        color: $darkgrey;
+        cursor: pointer;
+      }
+    }
+
+    &__form-fields {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+    }
+
+    &__submit-button {
+      margin-top: 6%;
+    }
+  }
+
+  &__checkbox-forgot {
+    display: flex;
+  }
+
+  .checkbox-btn {
+    color: #f1f1f1;
+  }
+  .checkbox-text {
+    padding-left: 0px;
+  }
+  .checkbox-btn {
+    color: $primaryWhite;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 3px;
+    display: flex;
+    align-items: center;
+  }
+
+  .form-checkbox {
+    margin-right: 10px;
+    vertical-align: baseline;
+  }
+
+  .checkbox-text {
+    padding-left: 10px;
+  }
+
+  input[type="checkbox"] {
+    background-color: rgba(255, 255, 255, 0);
+    appearance: none;
+    border: 1px solid $primaryWhite;
+    color: $primaryBlack;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+  }
+
+  input[type="checkbox"]:checked {
+    background: $primaryGreen; //rgba(36, 39, 209, 0.7);
+    color: $primaryBlack;
+    border: 1px solid $primaryGreen;
+    border-radius: 2px;
+    border-radius: 2px;
+  }
+
+  input[type="checkbox"]:checked::before {
+    content: "\2713";
+    font-size: 13px;
+    font-weight: 800;
+    color: $primaryWhite;
+    position: relative;
+    top: -2px;
+    left: 2px;
+  }
+  .static {
+    border: 1px solid $lightgrey;
+    background-color: transparent;
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    min-width: 19.875rem;
+  }
+}
+.input-text-field span.loginicon i:last-child svg {
+  color: $primaryWhite !important;
+}
+

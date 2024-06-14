@@ -1,0 +1,45 @@
+@import "../../styles/style.scss";
+
+.checkbox-list {
+  .checkbox-btn {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .form-checkbox {
+    margin-right: 0px !important;
+    vertical-align: baseline;
+  }
+  input[type="checkbox"] {
+    appearance: none;
+    //border: 1px solid $primaryWhite;
+    //color: $primaryBlack;
+    width: 22px;
+    height: 22px;
+    border-radius: 2px;
+    transform: scale(0.7);
+    line-height: 9px;
+  }
+
+  input[type="checkbox"]:checked::before {
+    content: "✓";
+    font-size: 15px;
+    font-weight: 800;
+    color: #f1f1f1;
+    position: relative;
+    top: -9px;
+    left: -4px;
+    width: 15px;
+    height: 15px;
+    transform: scale(0.7);
+  }
+
+  input[type="checkbox"]:checked {
+    background: $primaryGreen;
+    color: $primaryBlack;
+    border: 1px solid $primaryGreen;
+    border-radius: 2px;
+    width: 22px;
+    height: 22px;
+    transform: scale(0.7);
+  }
+}

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserTypeManagementPage should match the snapshot 1`] = `
+<div>
+  <div
+    class="user-types"
+  >
+    <div
+      class="user-types__header-content"
+    >
+      <h1
+        class="user-types__header-content__heading"
+      >
+        User Types
+      </h1>
+      <button
+        class="user-types__header-content__button greenButton btn btn-success"
+        type="button"
+      >
+        Add New
+      </button>
+    </div>
+    <div
+      class="user-types__table-content "
+    >
+      <div
+        class="user-types__table"
+      >
+        <div
+          class="text-align-center norecord"
+        >
+          Error message
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

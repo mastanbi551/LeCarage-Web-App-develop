@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchableDropdown renders correctly 1`] = `
+<div
+  class="searchable-dropdown input-text-field"
+>
+  <input
+    class="dropdown static"
+    placeholder="Create/Select"
+    type="text"
+    value="Option 2"
+  />
+</div>
+`;

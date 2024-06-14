@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomRadioButtonList renders correctly 1`] = `
+<div
+  class="radiobutton row"
+>
+  <div
+    class="col-md-3 feature-radio"
+  >
+    <input
+      class="test"
+      id="feature_undefined_access_1"
+      name="feature_undefined_access"
+      type="radio"
+      value="1"
+    />
+    <label
+      for="feature_undefined_access_1"
+    >
+      Option 1
+    </label>
+  </div>
+  <div
+    class="col-md-3 feature-radio"
+  >
+    <input
+      class="test"
+      id="feature_undefined_access_2"
+      name="feature_undefined_access"
+      type="radio"
+      value="2"
+    />
+    <label
+      for="feature_undefined_access_2"
+    >
+      Option 2
+    </label>
+  </div>
+  <div
+    class="col-md-3 feature-radio"
+  >
+    <input
+      class="test"
+      id="feature_undefined_access_3"
+      name="feature_undefined_access"
+      type="radio"
+      value="3"
+    />
+    <label
+      for="feature_undefined_access_3"
+    >
+      Option 3
+    </label>
+  </div>
+</div>
+`;

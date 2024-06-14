@@ -1,0 +1,582 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ManageCustomers component should render correctly 1`] = `
+<div>
+  <div
+    class="page-container-details"
+  >
+    <div
+      class="page-container-details__header-content"
+    >
+      <svg
+        class="back-icon"
+        data-testid="back-icon"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          x1="19"
+          x2="5"
+          y1="12"
+          y2="12"
+        />
+        <polyline
+          points="12 19 5 12 12 5"
+        />
+      </svg>
+      <h1
+        class="page-container-details__header-content__heading"
+      >
+        Customer
+      </h1>
+    </div>
+    <form
+      class="container-fluid"
+    >
+      <div
+        class="row "
+      >
+        <div
+          class="col-md-8 manage-customers-page"
+        >
+          <div
+            class="col-md-12"
+          >
+            <div
+              class="details-container"
+            >
+              <div
+                class="details-container__details-container-header"
+              >
+                <h1
+                  class="details-container__details-container-header__heading"
+                >
+                  Customer Details
+                </h1>
+                <svg
+                  class="details-container__details-container-header__collapse-icon"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 0h24v24H0V0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="collapse"
+              >
+                <div
+                  class="manage-customers-page__customer-info"
+                >
+                  <div
+                    class="row pdtopbtm"
+                  >
+                    <div
+                      class="col-md-6"
+                    >
+                      <label
+                        class="label"
+                      >
+                        First Name
+                      </label>
+                      <div
+                        class="input-text-field"
+                      >
+                        <input
+                          autocomplete="new-password"
+                          autocorrect="off"
+                          class="firstName static"
+                          data-testid="input-field"
+                          id="firstname_field"
+                          placeholder=""
+                          required=""
+                          type="text"
+                          value="Test"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-6"
+                    >
+                      <label
+                        class="label"
+                      >
+                        Last Name
+                      </label>
+                      <div
+                        class="input-text-field"
+                      >
+                        <input
+                          autocomplete="new-password"
+                          autocorrect="off"
+                          class="lastName static"
+                          id="lastname_field"
+                          placeholder=""
+                          required=""
+                          type="text"
+                          value="User"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="row pdtopbtm"
+                  >
+                    <div
+                      class="col-md-6"
+                    >
+                      <label
+                        class="label"
+                      >
+                        Email Address
+                      </label>
+                      <div
+                        class="input-text-field"
+                      >
+                        <input
+                          autocomplete="new-password"
+                          autocorrect="off"
+                          class="email static"
+                          id="email_field"
+                          placeholder=""
+                          required=""
+                          type="text"
+                          value="test@example.com"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-6"
+                    >
+                      <label
+                        class="label"
+                      >
+                        CellPhone Number
+                      </label>
+                      <div
+                        class="input-text-field"
+                      >
+                        <input
+                          autocomplete="new-password"
+                          autocorrect="off"
+                          class="phoneNumber static"
+                          id="cell-phone_field"
+                          placeholder=""
+                          required=""
+                          type="text"
+                          value="1234567890"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="row pdtopbtm"
+                  >
+                    <div
+                      class="col-md-6 customerspassword"
+                    >
+                      <label
+                        class="label"
+                      >
+                        Password
+                      </label>
+                      <div
+                        class="input-text-field"
+                      >
+                        <input
+                          autocomplete="new-password"
+                          autocorrect="off"
+                          class="password password-field static"
+                          disabled=""
+                          id="password_field"
+                          placeholder=""
+                          required=""
+                          type="password"
+                          value="test123"
+                        />
+                        <span
+                          class="multiple-icons"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="details-card-containers__user-address-container"
+                  >
+                    <h1
+                      class="details-card-containers__user-address-container__heading"
+                    >
+                      Customer Address
+                    </h1>
+                    <div
+                      class="details-card-containers__user-address-container__address-details"
+                    >
+                      <div>
+                        <div
+                          class="details-card-containers__user-address-container__address-details__delete-icon"
+                        >
+                          <svg
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g>
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M17 6h5v2h-2v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V8H2V6h5V3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3zm1 2H6v12h12V8zm-9 3h2v6H9v-6zm4 0h2v6h-2v-6zM9 4v2h6V4H9z"
+                              />
+                            </g>
+                          </svg>
+                        </div>
+                        <div
+                          class="row pdtopbtm"
+                        >
+                          <div
+                            class="col-md-6"
+                          >
+                            <label
+                              class="label"
+                            >
+                              Address Type
+                            </label>
+                            <div
+                              class="input-text-field"
+                            >
+                              <input
+                                autocomplete="new-password"
+                                autocorrect="off"
+                                class=" static"
+                                id="address_field"
+                                placeholder=""
+                                required=""
+                                type="text"
+                                value="123 Main St"
+                              />
+                            </div>
+                          </div>
+                          <div
+                            class="col-md-6"
+                          >
+                            <label
+                              class="label"
+                            >
+                              Street Name
+                            </label>
+                            <div
+                              class="input-text-field"
+                            >
+                              <input
+                                autocomplete="new-password"
+                                autocorrect="off"
+                                class=" static"
+                                id="street_field"
+                                placeholder=""
+                                required=""
+                                type="text"
+                                value="Main St"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="row pdtopbtm"
+                        >
+                          <div
+                            class="col-md-6"
+                          >
+                            <label
+                              class="label"
+                            >
+                              House Apartment no
+                            </label>
+                            <div
+                              class="input-text-field"
+                            >
+                              <input
+                                autocomplete="new-password"
+                                autocorrect="off"
+                                class=" static"
+                                id="houseapratment_field"
+                                placeholder=""
+                                required=""
+                                type="text"
+                                value="123"
+                              />
+                            </div>
+                          </div>
+                          <div
+                            class="col-md-6"
+                          >
+                            <label
+                              class="label"
+                            >
+                              Postal Code
+                            </label>
+                            <div
+                              class="input-text-field"
+                            >
+                              <input
+                                autocomplete="new-password"
+                                autocorrect="off"
+                                class=" static"
+                                id="postalcode_field"
+                                placeholder=""
+                                required=""
+                                type="text"
+                                value="12345"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="row pdtopbtm"
+                        >
+                          <div
+                            class="col-md-6"
+                          >
+                            <label
+                              class="label"
+                            >
+                              City
+                            </label>
+                            <div
+                              class="input-text-field"
+                            >
+                              <input
+                                autocomplete="new-password"
+                                autocorrect="off"
+                                class=" static"
+                                id="streetname_field"
+                                placeholder=""
+                                required=""
+                                type="text"
+                                value="Anytown"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="details-card-containers__user-address-container__address-details__add-Address"
+                        >
+                          <button
+                            class="add-button"
+                            type="button"
+                          >
+                            ADD ADDRESS
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="details-container"
+            >
+              <div
+                class="details-container__details-container-header"
+              >
+                <h1
+                  class="details-container__details-container-header__heading"
+                >
+                  Cars Linked
+                </h1>
+                <svg
+                  class="details-container__details-container-header__collapse-icon"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 0h24v24H0V0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="collapse"
+              >
+                <div
+                  class="details-card-containers__cars-container__cars-details"
+                >
+                  <div
+                    class="modal-view"
+                  />
+                  <div
+                    class="container"
+                  >
+                    <table
+                      class="table table-bordered table-striped table-hover"
+                    >
+                      <thead>
+                        <tr>
+                          <th>
+                            Number Plate
+                          </th>
+                          <th>
+                            Make
+                          </th>
+                          <th>
+                            Model
+                          </th>
+                          <th>
+                            Color
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody />
+                    </table>
+                  </div>
+                  <div
+                    class="details-card-containers__cars-container__cars-details__add-car"
+                  >
+                    <button
+                      class="add-button"
+                      type="button"
+                    >
+                      Link CAR
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-4 details-card-containers"
+        >
+          <div
+            class="col-md-12"
+          >
+            <div
+              class="card-container"
+            >
+              <div
+                class="col-md-12"
+              >
+                <div
+                  class="card-container__image-wrapper"
+                >
+                  <div
+                    class="card-container__image-container"
+                  >
+                    <img
+                      class="card-container__image-container__image"
+                      style="object-fit: cover;"
+                    />
+                    <h1
+                      class="card-container__image-container__heading"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="card-container__file-upload-container"
+                >
+                  <h1
+                    class="card-container__heading"
+                  >
+                    Upload Image
+                  </h1>
+                  <div
+                    class="outer"
+                  >
+                    <div
+                      class="imgload"
+                    >
+                       
+                    </div>
+                    <div
+                      class="DropZone"
+                      role="button"
+                      tabindex="0"
+                    >
+                      Click or drop your file here
+                    </div>
+                  </div>
+                </div>
+                 
+              </div>
+              <h1
+                class="card-container__heading"
+              >
+                Customer Actions
+              </h1>
+              <div
+                class="dropdown input-text-field"
+              >
+                <label
+                  class="dropDown-label"
+                >
+                  Set Status
+                </label>
+                <select
+                  class="custom-select status-dropdown"
+                >
+                  <option
+                    class="custom-option"
+                    value="active"
+                  >
+                    <span
+                      class="inactive-icon"
+                    />
+                    <span>
+                      Active
+                    </span>
+                  </option>
+                </select>
+              </div>
+              <div
+                class="line"
+              />
+              <button
+                class="greenButton w-100"
+                type="button"
+              >
+                Save & Update
+              </button>
+              <button
+                class="add-button w-100"
+                type="button"
+              >
+                Discard
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+`;

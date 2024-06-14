@@ -1,0 +1,16 @@
+.autocomplete{
+    border-radius: 0px;
+
+    &input #react-select-2-input{
+        height: auto;
+    }
+
+}
+
+.autocomplete > div {
+    border-radius: 0px;
+}
+
+.disabled{
+    cursor: not-allowed;
+}

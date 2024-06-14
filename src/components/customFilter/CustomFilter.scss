@@ -1,0 +1,81 @@
+@import "../../styles/style.scss";
+.custom-Filter-dropdown {
+  display: inline-block !important;
+  width: 250px;
+  margin-right: 10px;
+
+  button {
+    width: 100%;
+    background-color: transparent;
+    color: $black;
+    text-align: left;
+    border: 1px solid $btnborder;
+
+    :hover {
+      background-color: transparent;
+    }
+  }
+}
+.hovereffct:hover {
+  background-color: transparent !important;
+  color: $black !important;
+}
+
+.filterdropdown.show {
+  display: block;
+  border-radius: 0px;
+  width: 250px;
+}
+
+.dropdown-menu {
+  --bs-dropdown-padding-y: 0rem !important;
+}
+
+.dropdown-item {
+  border-bottom: 1px solid $veryLightGray;
+}
+.dropend {
+  border-bottom: 1px solid $veryLightGray;
+}
+.dropend:hover {
+  background-color: $primaryGreen;
+  color: $White;
+}
+
+.dropdown-item:last-child {
+  border-bottom: 0px solid $veryLightGray;
+}
+.dropend:last-child {
+  border-bottom: 0px solid $veryLightGray;
+}
+.dropdown-item:hover {
+  background-color: $primaryGreen;
+  color: $White;
+}
+
+.filterSwitchDropdown {
+  position: absolute;
+  inset: 0px auto auto 0px;
+  transform: translate(0px, -38px);
+}
+
+.dropdown {
+  margin-bottom: 1px;
+  padding: 0px;
+}
+
+.filterdrop {
+  transform: translate(-248px) !important;
+}
+
+.dropdown-toggle::after {
+  float: right;
+  margin-top: 9px;
+}
+
+.margntop {
+  margin-top: 0px !important;
+}
+.subFilterSwitchDropdown button{
+  padding:6px;
+}

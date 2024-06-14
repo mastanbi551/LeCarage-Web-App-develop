@@ -1,0 +1,108 @@
+@import "../../../../styles//variables.scss";
+
+.manage-usertypes-page {
+  text-align: left;
+  .add-button {
+    margin-bottom: 125px;
+  }
+  .row {
+    padding: 10px 5px;
+  }
+  .details-container {
+   // padding: 15px 20px;
+
+    &__details-container-header {
+      svg {
+        right: 10px !important;
+      }
+    }
+  }
+
+  // .heading {
+  //     //height: 0px;
+  // }
+
+  &__fetaures-info {
+    padding-top: 30px;
+
+    .form-checkbox {
+      border: 1px solid $primaryGreen;
+      border-radius: 3px;
+    }
+  }
+
+  .input-text-field {
+    .pen-icon {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      color: $black;
+    }
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .label {
+    @include label;
+    color: $black;
+  }
+
+  .feature-heading {
+    @include montserrat16;
+    letter-spacing: 0.15px;
+    color: $primaryBlack;
+    margin: 0px;
+    margin-bottom: 5px;
+  }
+
+  .feature-check-boxes {
+    margin-bottom: 5px;
+  }
+
+  .feature-info {
+    padding-bottom: 0px;
+  }
+
+  .checkbox-btn {
+    color: $black;
+    display: inline-block;
+    padding-right: 20px;
+
+    .checkboxlist,
+    .checkbox-text {
+      display: inline-block;
+    }
+
+    .checkbox-text {
+      @include input-text;
+      line-height: 20px;
+      color: $primaryBlack;
+      letter-spacing: 0.25px;
+    }
+  }
+
+  .heading {
+    @include SubHeading2;
+  }
+
+  .add-button {
+    margin-bottom: 125px;
+  }
+
+  .feature-radio input {
+    width: 20px;
+    display: inline-block;
+    accent-color: $primaryGreen;
+
+    :hover {
+      accent-color: $primaryGreen;
+    }
+  }
+}
+
+.dropdown {
+  margin-bottom: 1px !important;
+}

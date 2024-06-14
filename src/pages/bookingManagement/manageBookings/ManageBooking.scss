@@ -1,0 +1,358 @@
+@import "../../../styles/variables.scss";
+
+.details-card-containers {
+  input {
+    width: 100%;
+    color: $primaryBlack !important;
+    box-sizing: border-box;
+    width: 380px;
+    height: 40px;
+    font-family: $montserratFont;
+    border: 1px solid $lightgrey;
+    padding: 5px;
+    background-color: $lightgrey;
+  }
+
+  .label {
+    @include label;
+  }
+
+  &__booking-address-container {
+    padding: 2% 0;
+    text-align: left;
+
+    &__address-details {
+      &__address-street,
+      &__houseno-postal,
+      &__streetNew {
+        text-align: left;
+        text-align: left;
+
+        .label {
+          @include label;
+        }
+
+        input {
+          color: $primaryBlack !important;
+          box-sizing: border-box;
+          width: 100%;
+          height: 40px;
+          border: 1px solid $lightgrey;
+          font-family: $montserratFont;
+        }
+      }
+    }
+
+    &__heading {
+      @include SubHeading2;
+    }
+  }
+
+  &__booking-address-container {
+    &__address-details {
+      &__delete-icon {
+        text-align: right;
+        padding-right: 40px;
+      }
+
+      &__address-street,
+      &__houseno-postal,
+      &__streetNew,
+      &__add-Address {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        &__adress-container,
+        &__houseno-container,
+        &__street-container,
+        &__postal-container,
+        &__streetNew-container {
+          text-align: left;
+        }
+
+        input {
+          width: 100%;
+          font-family: $montserratFont;
+        }
+      }
+    }
+  }
+
+  .no-wrap {
+    flex-wrap: nowrap !important;
+    display: flex;
+  }
+
+  &__cars-container {
+    &__cars-details {
+      &__add-car {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+      }
+
+      &__car-heading-delete-icon {
+        display: block;
+        position: relative;
+
+        .label {
+          display: inline-block;
+          float: left;
+          @include label;
+        }
+
+        svg {
+          display: inline-block;
+          float: right;
+          position: absolute;
+          right: 10px;
+        }
+      }
+
+      &__table-info {
+        thead {
+          border: 1px solid $lightgrey;
+        }
+
+        tbody {
+          background: $secondaryWhite;
+        }
+      }
+    }
+  }
+}
+.manage-booking-page {
+  text-align: left;
+
+  .add-button {
+    margin-bottom: 125px;
+  }
+
+  &__fetaures-info {
+    padding-top: 30px;
+  }
+
+  .input-text-field {
+    font-family: $montserratFont;
+    .pen-icon {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      color: black;
+    }
+    
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .label {
+    @include label;
+  }
+
+  .feature-heading {
+    @include montserrat16;
+    letter-spacing: 0.15px;
+    color: $primaryBlack;
+  }
+
+  .feature-info {
+    padding-bottom: 20px;
+  }
+
+  .heading {
+    @include SubHeading2;
+  }
+
+  .add-button {
+    margin-bottom: 125px;
+  }
+}
+
+.overflow {
+  overflow: auto;
+  height: 430px;
+}
+
+.input-text-field span.multiple-icons i:last-child svg {
+  color: $primaryBlack;
+}
+
+.mgtp {
+  margin-top: 6px;
+}
+textarea {
+  width: 100%;
+  margin: 5px 0;
+  padding: 3px;
+  border: 1px solid $lightgrey;
+  font-size: 14px;
+  font-family: $montserratFont;
+}
+.modal-footer{
+  .btn-success{
+    border-radius: 0px;
+    background-color: $primaryGreen;
+  }
+  .btn-secondary{
+    border-radius: 0px;
+
+    &:hover{
+      background-color: $darkgrey;
+    }
+  }
+}
+
+.css-1h01tm3-Input{
+  .disabled{
+      cursor: not-allowed;
+  }
+}
+.css-109onse-indicatorSeparator,
+.css-894a34-indicatorSeparator,
+.css-1u9des2-indicatorSeparator,
+.css-1okebmr-indicatorSeparator{
+  border:none;
+  width: 0px !important;
+}
+
+.css-1jqq78o-placeholder{
+  color: hsl(0, 0%, 50%);
+  margin-left: 2px;
+  margin-right: 2px;
+ 
+}
+.css-1jqq78o-placeholder{
+  color:$primaryBlack !important;
+}
+.css-1wa3eu0-placeholder {
+  color: #171717 !important;
+  margin-left: 2px;
+  margin-right: 2px;
+  position: absolute;
+  top: 62% !important;
+  -webkit-transform: translateY(-44%) !important;
+  -moz-transform: translateY(-44%) !important;
+  -ms-transform: translateY(-44%) !important;
+  transform: translateY(-44%) !important;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: $montserratFont;
+  margin-top: -6px;
+}
+.css-1fhf3k1-control{
+  background-color: hsl(0 0% 100% / 1) !important;
+  cursor:not-allowed;
+}
+.css-16xfy0z-control{
+   background-color: hsl(0 0% 100% / 1) !important;
+   border: 0px !important;
+   cursor:not-allowed;
+}
+.css-3iigni-container{
+  cursor:not-allowed;
+}
+.css-1f43avz-a11yText-A11yText{
+  cursor: not-allowed;
+}
+.css-1hb7zxy-IndicatorsContainer,
+.css-15lsz6c-indicatorContainer,
+.css-1xc3v61-indicatorContainer,
+.css-tlfecz-indicatorContainer {
+  color: hsl(0, 0%, 80%) !important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1px !important;
+  font-size: 0px;
+  -webkit-transition: color 150ms;
+  transition: color 150ms;
+  box-sizing: border-box;
+  font-family: $montserratFont;
+}
+
+.css-tj5bde-Svg {
+  display: inline-block;
+  fill: currentColor;
+  line-height: 1;
+  stroke: currentColor;
+  stroke-width: 0;
+  height: 15px;
+  width: 15px;
+  color:$black ;
+}
+.css-t3ipsp-control:hover,
+.css-1pahdxg-control:hover {
+  border-color: $black !important;
+  box-shadow: 0 0 0 1px $black;
+}
+.css-t3ipsp-control,
+.css-1pahdxg-control {
+  border-radius: 0px !important;
+  box-shadow: 0 0 0 1px $black !important;
+  border-color: $black !important;
+}
+.css-13cymwt-control{
+  border-radius: 0px !important;
+  border:0px solid #e4e4e4 !important;
+}
+
+.css-1hwfws3{
+  height: 39px !important;
+}
+.css-1uccc91-singleValue {
+  
+  top: 62% !important;
+  -webkit-transform: translateY(-44%) !important;
+  -moz-transform: translateY(-44%) !important;
+  -ms-transform: translateY(-44%) !important;
+  transform: translateY(-44%) !important;
+  font-family: $montserratFont;
+  font-size: 14px !important;
+  margin-top: -6px;
+  
+}
+
+#react-select-3-input{
+  margin:-7px;
+  font-size: 14px;
+}
+.css-1g6gooi div input{
+  margin:-7px;
+  font-size: 14px !important;
+}
+.css-16xfy0z-control{
+  cursor: not-allowed;
+}
+.status-dropdown:disabled{
+  cursor: not-allowed;
+}
+css-1xc3v61-indicatorContainer
+.modalFieldLabel{
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+}
+.customedatetime {
+  color: $primaryBlack;
+}
+.custom-select:disabled{
+  cursor: not-allowed;
+}
+Select:disabled{
+  cursor: not-allowed;
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .card-container__file-upload-container__file-upload-icon {
+      
+      border-radius: 4px;
+      padding: 40px 15px;
+     
+  }
+
+ }

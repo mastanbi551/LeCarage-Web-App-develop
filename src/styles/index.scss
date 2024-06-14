@@ -1,0 +1,26 @@
+@import "variables";
+#root {
+  height: auto;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+body {
+  margin: 0;
+}
+
+.toast-message1 {
+  width: 100%;
+  text-align: left;
+  background-color: $grey;
+}
+.toast-message {
+  width: 100%;
+  text-align: left;
+  margin-top: 80px;
+  background-color: $grey !important;
+  color: $primaryWhite !important;
+  top: -95px !important;
+  z-index: 20000;
+}

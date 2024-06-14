@@ -1,0 +1,263 @@
+@import "~bootstrap/scss/mixins";
+
+//fonts
+$defaultFont: "Playfair Display";
+$montserratFont: "Montserrat";
+$latoFont: "Lato";
+//colors
+$primaryWhite: #f1f1f1;
+$primaryGreen: #275820;
+$primaryBlack: #262626;
+$primaryRed: #fc5153;
+$secondaryRed: #ff0000;
+$secondaryGreen: #33bf49;
+$secondaryYellow: #fcd861;
+$secondaryBrightGreen: #64c157;
+$lightgrey: #e4e4e4;
+$secondaryLightGrey: #e3e3e3;
+$black: #171717;
+$darkgrey: #969696;
+$grey: #313131;
+$lightBlack: #032327;
+$darkGraishBlue: #30353b;
+$veryDarkGray: #333333;
+$veryDarkBlue: #212529;
+$veryLightGray: #ececec;
+$secondaryWhite: #f8f8f8;
+$White: #ffffff;
+$whiteTransparent: rgba(255, 255, 255, 0);
+$whiteShade1: rgb(238, 238, 238);
+$disablebtn: #888888;
+$btnborder: #ced4da;
+
+//fonts mixin
+@mixin montserrat18 {
+  font-family: $montserratFont;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@mixin montserrat16 {
+  font-family: $montserratFont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+//heading styles
+@mixin heading_1 {
+  font-family: $defaultFont;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  color: $primaryBlack;
+}
+
+@mixin heading_3 {
+  font-family: $defaultFont;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: $primaryBlack;
+}
+
+@mixin Body_Copy_Main {
+  font-family: $montserratFont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+@mixin Heading_2 {
+  font-family: $defaultFont;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: $primaryBlack;
+}
+
+@mixin Body_copy_1 {
+  font-family: $montserratFont;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+@mixin SubHeading {
+  color: $primaryWhite;
+  font-family: $montserratFont;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: start;
+  line-height: 24px;
+}
+
+@mixin FontMontserratAndColorWhite {
+  color: $primaryWhite;
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
+@mixin SubHeading2 {
+  font-family: $montserratFont;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: $primaryBlack;
+}
+
+@mixin sidebar_links {
+  font-family: $montserratFont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: $White;
+}
+
+@mixin input-text {
+  font-family: $montserratFont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@mixin checkbox-forgotpassword {
+  font-family: $montserratFont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+}
+
+@mixin label {
+  font-family: $montserratFont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: left;
+}
+
+@mixin status-dropdown {
+  font-family: $montserratFont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  
+}
+
+@mixin tableHeading {
+  font-family: $montserratFont;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  color: $lightBlack;
+}
+
+@mixin tableBody {
+  font-family: $montserratFont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: $darkGraishBlue;
+}
+
+@mixin greenStatusIcon {
+  height: 10px;
+  width: 10px;
+  background-color: $secondaryGreen;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+@mixin redStatusIcon {
+  height: 10px;
+  width: 10px;
+  background-color: $primaryRed;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+@mixin yellowStatusIcon {
+  height: 10px;
+  width: 10px;
+  background-color: $secondaryYellow;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+@mixin addButton {
+  font-family: $montserratFont;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  text-transform: uppercase;
+  color: $primaryGreen;
+  background-color: transparent;
+  box-sizing: border-box;
+  width: 175px;
+  height: 48px;
+  border: 2px solid $primaryGreen;
+}
+
+@mixin image-heading {
+  font-family: $montserratFont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: $primaryGreen;
+}
+
+@mixin PageHeading {
+  font-family: $defaultFont;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 48px;
+  color: $primaryBlack;
+}
+
+@mixin greenButton {
+  font-family: $montserratFont;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  //color: $lightgrey;
+  height: 48px;
+}
+
+.not-found-container {
+  padding-bottom: 25px;
+  margin-top: 70px;
+}

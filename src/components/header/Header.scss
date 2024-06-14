@@ -1,0 +1,77 @@
+@import "../../styles/variables.scss";
+.main-nav {
+  padding: 0px;
+  background: $primaryGreen !important;
+  height: 70px;
+
+  &__logo {
+    width: 52px;
+    height: 50px;
+  }
+
+  @media (max-width: 767px) {
+    &__notofication-icon {
+      position: absolute;
+      right: 60px;
+      color: $primaryWhite;
+    }
+    .container-fluid {
+      position: relative;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .navbar-expand-md {
+      .navbar-collapse {
+        display: block !important;
+      }
+      .navbar-nav {
+        float: right;
+      }
+    }
+    .container-fluid {
+      padding-left: 90px;
+    }
+  }
+
+  .navbar-nav li,
+  .navbar-nav .dropdown {
+    display: inline-block;
+  }
+  a.nav-link {
+    color: $primaryWhite;
+    padding-right: 10px;
+  }
+  .nav-arrow-icon {
+    margin-left: 10px;
+  }
+  .navbar-nav .dropdown.show {
+    .nav-arrow-icon {
+      transform: rotate(180deg);
+    }
+  }
+  .navbar-nav .nav-link.active,
+  .navbar-nav .show > .nav-link {
+    color: $primaryWhite;
+  }
+  .navbar-expand-md .navbar-nav .dropdown-menu {
+    padding: 0px;
+  }
+  .user-icon {
+    background: $darkgrey;
+  }
+  .dropdown-menu.show {
+    width: 280px;
+  }
+}
+
+.new {
+  white-space: pre-wrap;
+}
+
+.fixed {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1000;
+}

@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OtpVerification component matches the snapshot 1`] = `
+<div>
+  <div
+    data-testid="background-image-container"
+    style="background-image: url(bgimg.jpg); background-size: cover; background-repeat: no-repeat; background-position: center; height: 100vh; overflow: hidden;"
+  >
+    <div
+      class="otp-verification-page"
+    >
+      <div
+        class="otp-verification-page__container"
+      >
+        <div
+          class="otp-verification-page__otp-verification-form"
+        >
+          <div
+            class="otp-verification-page__heading"
+          >
+            <h1
+              class="heading"
+            >
+              Enter Your OTP
+            </h1>
+          </div>
+          <div
+            class="otp-verification-page__content"
+          >
+            <p
+              class="body_copy_1"
+            >
+              Please enter your verification code 
+            </p>
+          </div>
+          <form
+            class="otp-verification-page__otp-verification-form__form-fields"
+          >
+            <div
+              class="otp-verification-page__otp-verification-form__otp-field"
+            >
+              <div
+                class="input-text-field"
+              >
+                <input
+                  autocomplete="new-password"
+                  autocorrect="off"
+                  class="input-field static"
+                  data-testid="otp-input"
+                  id="otp_field"
+                  placeholder="Enter 6-digit OTP"
+                  required=""
+                  type="password"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="otp-verification-page__otp-verification-form__proceed-button"
+            >
+              <button
+                class="button_full"
+                data-testid="submit-button"
+                type="button"
+              >
+                Proceed
+              </button>
+            </div>
+          </form>
+        </div>
+        <div
+          class="otp-verification-page__logo-container"
+        >
+          <img
+            alt="logo"
+            class="logo-page__img"
+            src="lecarageLogo.png"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ManageUserTypes component renders correctly 1`] = `
+<div
+  className="page-container-details"
+>
+  <div
+    className="page-container-details__header-content"
+  >
+    <svg
+      className="back-icon"
+      data-testid="back-icon"
+      fill="none"
+      height="1em"
+      onClick={[MockFunction]}
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        x1="19"
+        x2="5"
+        y1="12"
+        y2="12"
+      />
+      <polyline
+        points="12 19 5 12 12 5"
+      />
+    </svg>
+    <h1
+      className="page-container-details__header-content__heading"
+    >
+      User Types
+    </h1>
+  </div>
+  <form
+    className="container-fluid"
+    onSubmit={[Function]}
+  >
+    <div
+      className="row manage-usertypes-page"
+    >
+      <div
+        className="col-md-8"
+      >
+        <div
+          className="col-md-12"
+        >
+          <div
+            className="details-container"
+          >
+            <div
+              className="details-container__details-container-header"
+            >
+              <h1
+                className="details-container__details-container-header__heading"
+              >
+                User Type Details
+              </h1>
+            </div>
+            <div
+              className="manage-usertypes-page__usertype-info"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-6"
+                >
+                  <label
+                    className="label"
+                  >
+                    User Type Name
+                  </label>
+                  <div
+                    className="input-text-field"
+                  >
+                    <input
+                      autoComplete="new-password"
+                      autoCorrect="off"
+                      className="user-type-name-inputField static"
+                      disabled={true}
+                      id=""
+                      name="usertypename"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      placeholder=""
+                      required={true}
+                      type="text"
+                      value="Admin"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-12"
+                >
+                  <label
+                    className="label"
+                  >
+                    Description
+                  </label>
+                  <div
+                    className="input-text-field"
+                  >
+                    <input
+                      autoComplete="new-password"
+                      autoCorrect="off"
+                      className="user-type-description-inputField static"
+                      disabled={true}
+                      id=""
+                      name="usertypeDescription"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      placeholder=""
+                      required={true}
+                      type="text"
+                      value="Administrator"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="manage-usertypes-page__fetaures-info"
+            >
+              <h1
+                className="heading"
+              >
+                User Type Details
+              </h1>
+              <div
+                className="feature-heading"
+              >
+                <h1
+                  className="feature-heading"
+                >
+                  Feature 1
+                </h1>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="radiobutton row"
+                  >
+                    <div
+                      className="col-md-3 feature-radio"
+                    >
+                      <input
+                        checked={true}
+                        className=""
+                        disabled={true}
+                        id="feature_1_access_1"
+                        name="feature_1_access"
+                        onChange={[Function]}
+                        type="radio"
+                        value="1"
+                      />
+                      <label
+                        htmlFor="feature_1_access_1"
+                      >
+                        Access 1
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-4 details-card-containers"
+      >
+        <div
+          className="col-md-12"
+        >
+          <div
+            className="card-container"
+          >
+            <div
+              className="col-md-12"
+            >
+              <div
+                className="card-container__image-wrapper"
+              />
+               
+            </div>
+            <h1
+              className="card-container__heading"
+            >
+              User Type Actions
+            </h1>
+            <div
+              className="dropdown input-text-field disabled"
+            >
+              <label
+                className="dropDown-label"
+              >
+                Set Status
+              </label>
+              <select
+                className="custom-select status-dropdown"
+                defaultValue="1"
+                disabled={true}
+                onBlur={[Function]}
+                onChange={[Function]}
+                value="1"
+              >
+                <option
+                  className="custom-option"
+                  value=""
+                >
+                  Select
+                </option>
+                <option
+                  className="custom-option"
+                  selected={true}
+                  value="1"
+                >
+                  <span
+                    className="inactive-icon"
+                  />
+                  <span>
+                    Active
+                  </span>
+                </option>
+              </select>
+            </div>
+            <div
+              className="line"
+            />
+            <button
+              className="greenButton w-100"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+            >
+              Save & Update
+            </button>
+            <button
+              className="add-button w-100"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+            >
+              Discard
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

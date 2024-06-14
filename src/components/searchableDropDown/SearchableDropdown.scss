@@ -1,0 +1,31 @@
+@import "../../styles//variables.scss";
+
+
+.searchable-dropdown {
+    position: relative;
+    .static{
+        &::placeholder{
+        color:$primaryBlack;
+    }}
+    .inputdropdown{
+        position: absolute;
+    background-color: #fff;
+    border: 1px solid #b4b4b4;
+    z-index: 3;
+    border-radius: 0px;
+    padding-left: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+    color: $primaryBlack;
+    width: 100%;
+    li{
+        padding:3px;
+        list-style-type: none;
+        
+    }
+
+    li:hover{
+        background-color:#02a8dd;
+        color:#fff ;
+    }
+}}

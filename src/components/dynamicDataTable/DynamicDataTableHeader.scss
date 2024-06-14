@@ -1,0 +1,65 @@
+@import "../../styles/variables.scss";
+
+.table-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  color: $veryDarkGray;
+
+  &__heading {
+    font-family: $montserratFont;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+
+    letter-spacing: 0.5px;
+
+    color: $primaryGreen;
+  }
+  &__icons {
+    svg {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      color: #869698;
+      cursor: pointer;
+    }
+
+    &__filterby {
+      display: inline-block;
+      width: 180px;
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: $veryDarkBlue;
+      background-color: $primaryWhite;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      margin-right: 10px;
+    }
+  }
+  &__search-field {
+    display: inline-block !important;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 0px;
+  }
+}
+.header__Icons {
+  svg {
+    margin: 5px;
+  }
+}
+.table-header__search-field:focus {
+  color: $veryDarkBlue;
+  background-color: $White;
+  border-color: none !important;
+  outline: 0;
+  box-shadow: 0 0 0 0rem rgba(10, 10, 10, 0.25);
+  border: 1px solid $primaryBlack;
+}

@@ -1,0 +1,41 @@
+@import "../../styles/style.scss";
+
+.checkbox-btn {
+  color: $primaryWhite;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 3px;
+  display: flex;
+
+  align-items: center;
+}
+
+.form-checkbox {
+  margin-right: 10px;
+  vertical-align: baseline;
+}
+
+.checkbox-text {
+  padding-left: 10px;
+}
+
+input[type="checkbox"] {
+  background-color: $whiteTransparent;
+  appearance: none;
+  border: 1px solid $primaryWhite;
+  color: $primaryBlack;
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+}
+
+input[type="checkbox"]:checked {
+  background: $primaryGreen;
+  color: $primaryBlack;
+  border: 1px solid $primaryGreen;
+  border-radius: 2px;
+  border-radius: 2px;
+  width: 15px;
+  height: 15px;
+}

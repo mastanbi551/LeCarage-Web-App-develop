@@ -1,0 +1,236 @@
+@import "../../../styles/variables.scss";
+
+.bookings-container {
+  padding: 25px 20px;
+  background: $secondaryWhite;
+  font-family: $montserratFont;
+
+  &__header-content {
+    display: flex;
+    padding-bottom: 25px;
+    margin-top: 70px;
+
+    &__heading {
+      display: inline-block;
+      float: left;
+      font-size: 36px !important;
+      @include PageHeading;
+      display: flex;
+      align-items: center;
+      margin-left: 17px;
+    }
+
+    &__button {
+      font-size: 14px;
+      display: inline-block;
+      float: right;
+
+      right: 20px;
+      padding: 15px;
+    }
+  }
+
+  &__table-content {
+    display: block;
+    background: $White;
+    border-radius: 3px 3px 0px 0px;
+  }
+  &__table {
+    padding: 0px;
+    text-align: left;
+    thead {
+      box-shadow: inset 0px 1px 0px $secondaryLightGrey;
+      th {
+        padding-left: 20px;
+        width: 10px;
+
+        &:last-child {
+          text-align: center;
+        }
+      }
+    }
+    tbody {
+      .active-icon {
+        @include greenStatusIcon;
+      }
+
+      .inactive-icon {
+        @include redStatusIcon;
+      }
+      td {
+        padding: 15px 0px 15px 17px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.overflow {
+  overflow: auto;
+  height: 400px;
+}
+
+.rbc-calendar {
+  margin-top: 11%;
+  padding: 20px;
+}
+
+.rbc-event,
+.rbc-day-slot .rbc-background-event {
+  background-color: $primaryGreen !important;
+  border-color: $primaryGreen !important;
+}
+
+.bookings-container__table tbody .edit-delete-icons {
+  text-align: center;
+}
+
+.rbc-agenda-table {
+  border: 1px solid #ccc;
+  text-align: left;
+  thead {
+    border: 1px solid #ccc;
+    tr {
+      border: 1px solid #ccc;
+      th {
+        border: 1px solid #ccc;
+      }
+    }
+  }
+  tbody {
+    border: 1px solid #ccc;
+    tr {
+      border: 1px solid #ccc;
+    }
+    td {
+      border: 1px solid #ccc;
+    }
+  }
+}
+
+.rbc-time-view {
+  border: 1px solid #ccc !important;
+}
+
+.rbc-time-content {
+  border-top: 1px solid #ccc !important;
+}
+.rbc-timeslot-group {
+  border-bottom: 1px solid #ccc !important;
+}
+
+.rbc-time-header.rbc-overflowing {
+  border-right: 1px solid #ccc !important;
+}
+.rbc-header {
+  border-bottom: 1px solid #ccc !important;
+  margin-right: 1px !important;
+}
+.rbc-time-content > * + * > * {
+  border-left: 1px solid #ccc !important;
+}
+.rbc-time-header-content {
+  border-left: 1px solid #ccc !important;
+}
+.rbc-timeslot-group {
+  border-bottom: 1px solid #ccc;
+  min-height: 160px !important;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.rbc-month-view {
+  border: 1px solid #ccc !important;
+}
+.rbc-day-bg + .rbc-day-bg {
+  border-left: 1px solid #ccc !important;
+}
+.rbc-month-row + .rbc-month-row {
+  border-top: 1px solid #ccc !important;
+}
+.rbc-header + .rbc-header {
+  border-left: 1px solid #ccc !important;
+}
+.rbc-day-slot .rbc-time-slot {
+  border-top: 1px solid #ccc !important;
+}
+
+.rbc-events-container .rbc-event {
+  width: 32% !important;
+  height: 2.07% !important;
+  z-index: 2;
+}
+
+.rbc-events-container {
+  margin-right: 0px !important;
+
+  min-width: 264px !important;
+}
+.rbc-day-slot .rbc-time-slot {
+  min-width: 264px !important;
+  overflow-y: hidden !important;
+}
+.rbc-time-content {
+  overflow: visible !important;
+}
+.rbc-day-slot {
+  width: 100% !important;
+}
+
+.rbc-time-header {
+  margin-right: 0px !important;
+}
+
+.rbc-time-header .rbc-header {
+  min-width: 264px !important;
+}
+
+.rbc-allday-cell {
+  display: none;
+}
+.rbc-time-view {
+  overflow-y: auto;
+}
+
+.rbc-time-content {
+  overflow-y: none;
+}
+.my-calendar {
+  position: relative;
+}
+// .rbc-time-gutter,
+// .rbc-time-column,
+// .rbc-timeslot-group,
+// .rbc-time-slot {
+//   position: sticky;
+//   left: 0;
+//   z-index: 5; /* ensure the time column is above other content */
+// }
+.rbc-time-header-gutter:first-child,
+.my-calendar .rbc-time-gutter :first-child,
+.my-calendar .rbc-time-column:first-child {
+  position: sticky;
+  position: -webkit-sticky;
+  left: 0;
+  z-index: 3; /* increase the z-index of the time column */
+  background-color: #fff;
+}
+
+.my-calendar .rbc-timeslot-group {
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 2; /* increase the z-index of the time slots */
+}
+
+.my-calendar .rbc-time-slot {
+  position: relative;
+  z-index: 2;
+}
+
+.my-calendar .rbc-time-view-content {
+  z-index: 1;
+}
+
+.rbc-event {
+  font-size: 14px;
+}
